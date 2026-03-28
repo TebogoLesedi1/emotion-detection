@@ -1,17 +1,15 @@
 # emotion-detection
-# Sentiment Analysis for Phakama AI 🤖💬
+# Sentiment Analysis for Phakama AI 
 
 A sentiment analysis model that classifies user text inputs as **positive, negative, or neutral** to enable the Phakama AI chatbot to respond empathetically and contextually.
 
----
 
-## 💭 Problem
+Problem
 
 Chatbots often fail to understand the emotional tone of user messages, leading to robotic or inappropriate responses. Detecting sentiment allows chatbots to interact in a more human-like, empathetic way.
 
----
 
-## 🚀 Solution
+ Solution
 
 This project uses **sentiment analysis (text classification)** to detect the sentiment of user inputs. It allows Phakama AI to:  
 
@@ -19,18 +17,15 @@ This project uses **sentiment analysis (text classification)** to detect the sen
 - Respond appropriately based on positive, negative, or neutral sentiment  
 - Improve user engagement and satisfaction  
 
----
 
-## ✨ Features
+ Features
 
-- 📝 Sentiment detection from text  
-- 🤖 Integration-ready with Phakama AI chatbot  
-- 📊 Model evaluation (accuracy, F1-score, confusion matrix)  
-- ⚡ Real-time inference for chat responses  
+- Sentiment detection from text  
+-  Integration-ready with Phakama AI chatbot  
+- Model evaluation (accuracy, F1-score, confusion matrix)  
+- Real-time inference for chat responses  
 
----
-
-## 🛠️ Tech Stack
+ Tech Stack
 
 - Python  
 - Pandas & NumPy  
@@ -39,19 +34,14 @@ This project uses **sentiment analysis (text classification)** to detect the sen
 - Flask (for chatbot integration)  
 - Google Colab (for development and experimentation)  
 
----
 
-## 📸 Results
-
+ Results
 
 - Example input: `"I love using this chatbot!"` → Sentiment: **Positive**  
 - Example input: `"This is frustrating..."` → Sentiment: **Negative**  
 - Example input: `"I love using this chatbot!"` → Sentiment: **Happy**  
 - Example input: `"This is frustrating..."` → Sentiment: **Mad**  
 
-
-
----
 
 
 1. Clone the repository:  
